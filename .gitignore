@@ -1,0 +1,37 @@
+# Compiled object files
+*.o
+
+# Compiled dynamic libraries
+*.so
+
+# Compiled executables
+*.exe
+
+# Compiled binaries
+*.bin
+
+# Compiled libraries
+*.lib
+
+# IDE-specific files and directories
+.vscode/
+.idea/
+
+# Compiled Python bytecode
+*.pyc
+
+# Virtual environment
+venv/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+
+# Dependency directories
+TensorFlow/workspace/images/
+TensorFlow/workspace/models/
+TensorFlow/models/
+Tensorflow/workspace/annotations/test.record
+Tensorflow/workspace/annotations/train.record
