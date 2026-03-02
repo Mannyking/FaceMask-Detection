@@ -1,37 +1,28 @@
-# Compiled object files
-*.o
+# Model checkpoints and weights
+tensorflow/workspace/models/
+tensorflow/workspace/pre-trained-models/
+*.pb
+*.h5
+*.ckpt*
 
-# Compiled dynamic libraries
-*.so
+# Generated data
+tensorflow/workspace/annotations/*.record
+tensorflow/workspace/images/
 
-# Compiled executables
-*.exe
+# Cloned repos
+tensorflow/models/
+nvvm/
+labelImg/
 
-# Compiled binaries
-*.bin
+# Python
+__pycache__/
+*.pyc
+*.pyo
+venv/
+env/
 
-# Compiled libraries
-*.lib
-
-# IDE-specific files and directories
+# IDE
 .vscode/
 .idea/
-
-# Compiled Python bytecode
-*.pyc
-
-# Virtual environment
-venv/
-
-# Log files
-*.log
-
-# Temporary files
-*.tmp
-
-# Dependency directories
-TensorFlow/workspace/images/
-TensorFlow/workspace/models/
-TensorFlow/models/
-Tensorflow/workspace/annotations/test.record
-Tensorflow/workspace/annotations/train.record
+*.swp
+.DS_Store
