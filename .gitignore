@@ -8,6 +8,7 @@ tensorflow/workspace/pre-trained-models/
 # Generated data
 tensorflow/workspace/annotations/*.record
 tensorflow/workspace/images/
+tensorflow/workspace/exported_mask_model
 
 # Cloned repos
 tensorflow/models/
@@ -26,3 +27,6 @@ env/
 .idea/
 *.swp
 .DS_Store
+
+# personal
+executor.ipynb
